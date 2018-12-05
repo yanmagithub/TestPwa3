@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.3e1c3b5e8e2cb3940c623a21c2f22ed1.js"
+  "./precache-manifest.7241921ddfde5b426150919ac724cf67.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ggg_env"});
@@ -27,6 +27,15 @@ workbox.clientsClaim();
  * requests for URLs in the manifest.
  * See https://goo.gl/S9QRab
  */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
+self.__precacheManifest = [
+  {
+    "url": "index.html",
+    "revision": "40e9d477814323de341b112d75820243"
+  },
+  {
+    "url": "service-worker.js",
+    "revision": "78ef029e17bf2ff1062b0160b440e0c1"
+  }
+].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
