@@ -1,6 +1,6 @@
 {
-  "name": "ggg_env2",
-  "short_name": "ggg_env2",
+  "name": "ggg_env3",
+  "short_name": "ggg_env3",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "start_url": "../?utm_source=homescreen",
-  "display": "browser",
+  "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#4DBA87"
 }
